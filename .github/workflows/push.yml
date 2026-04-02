@@ -71,6 +71,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      packages: read
     with:
       release: "${{ github.ref }}"
       cg: "false"
